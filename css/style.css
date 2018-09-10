@@ -1,0 +1,23 @@
+/* Selector de Etiqueta */
+header {
+    background: blueviolet;
+    color: brown
+}
+
+/* Selector descendente */
+
+body header div nav ol li a {
+
+}
+
+/* Selector de id */
+
+#portafolio {
+
+}
+
+/* Selector de clase */
+
+.link {
+
+}
