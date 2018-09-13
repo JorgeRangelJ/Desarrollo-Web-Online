@@ -36,6 +36,7 @@ h1 {
     line-height: 1.5;
     letter-spacing: -.2px;
     color: #ffffff;
+    margin: 0;
     /* text-transform: uppercase; */
     /* text-decoration: underline; */
 }
@@ -57,10 +58,12 @@ h1 strong {
 .project {
     border: 1px solid gray;
     border-radius: 10px;
+    margin-bottom: 15px;
 }
 
 .project-details {
     width: 500px;
+   /* margin: 0 auto;*/
 }
 
 .project-imageContainer {
