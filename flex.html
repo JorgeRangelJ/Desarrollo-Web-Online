@@ -8,9 +8,14 @@
     <style>
         .flexbox {
             display: flex;
-            flex-direction: row;/* propiedad por defecto */
+            /* flex-direction: row; propiedad por defecto */
             flex-wrap: wrap;
-            justify-content: space-evenly;
+            justify-content: space-evenly; /* alineado horizontal */
+            height: 200px;
+            align-items: center; /* alineado vertical */
+            background: #aaa;
+            border: 1px solid #000;
+            /* flex-direction: column; */
         }
         .box {
             width: 50px;
@@ -23,18 +28,9 @@
 </head>
 <body>
     <div class="flexbox">
+        <div class="box" style="align-self:flex-end"></div>
         <div class="box"></div>
-        <div class="box"></div>
-        <div class="box"></div>
-        <div class="box"></div>
-        <div class="box"></div>
-        <div class="box"></div>
-        <div class="box"></div>
-        <div class="box"></div>
-        <div class="box"></div>
-        <div class="box"></div>
-        <div class="box"></div>
-        <div class="box"></div>
+        <div class="box" style="align-self:flex-start"></div>
     </div>    
 </body>
 </html>
